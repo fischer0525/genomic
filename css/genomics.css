@@ -1,0 +1,134 @@
+body {
+  z-index: -2;
+  color: #000000;
+  font-size: 16px;
+}
+
+img {
+  max-width: 325px;
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+h1 {
+  color: #777777;
+}
+
+p {
+  color: #777777;
+}
+
+a p {
+  color: #6fcefa;
+}
+
+.breadcrumb-item a{
+  color: #6fcefa;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #6fcefa;
+}
+
+.header h1, .header p {
+  color: #ffffff;
+}
+
+img .logo {
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  padding: .75rem 1rem .75rem 0rem;
+}
+
+.breadcrumb-item.active {
+  color: #ffffff;
+}
+
+header {
+  background-image: url("../assets/mountains.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 500px;
+  max-height: 500px;
+}
+
+h2 {
+   width: 100%;
+   text-align: center;
+   border-bottom: 1px solid #000;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+   color: #777777;
+}
+
+h2 span {
+    background:#fff;
+    padding:0 10px;
+}
+
+footer {
+  background-color: #777777;
+  padding-bottom: 5rem;
+}
+
+footer p {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+footer a {
+  color: #6fcefa;
+}
+
+@media (max-width: 576px) {
+  header {
+    background-image: url("../assets/mountains.jpg");
+    width: 100%;
+    min-height: 600px;
+    max-height: 600px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+  header {
+    background-image: url("../assets/mountains.jpg");
+    width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+  header {
+    background-image: url("../assets/mountains.jpg");
+    width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {
+  header {
+    background-image: url("../assets/mountains.jpg");
+    width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+  }
+}
